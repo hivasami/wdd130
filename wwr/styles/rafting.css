@@ -16,6 +16,7 @@ header {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    box-shadow: #96c996;
 }
 
 body {
@@ -28,6 +29,12 @@ main,
 footer {
     width: 840px;
     margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
 }
 
 nav,
@@ -44,9 +51,6 @@ article {
 
 .hero {
     position: relative;
-    width: 100%;
-    height: auto;
-    overflow: hidden;
 }
 
 .hero img {
@@ -55,8 +59,7 @@ article {
     height: auto;
 }
 
-h1,
-article {
+h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -69,7 +72,8 @@ article {
 }
 
 .hero article img {
-    position: absolute;
     float: right;
     width: 115px;
+    border: #997e12;
+    box-shadow: 10px 20px 18px;
 }
