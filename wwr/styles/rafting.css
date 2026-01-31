@@ -56,15 +56,11 @@ article {
     display: block;
     width: 100%;
     height: auto;
-}
 
-.hero h1,
-.hero article {
-    position: absolute;
-    color: #eaebf2;
 }
 
 .hero h1 {
+    position: absolute;
     top: 20px;
     left: 50%;
     transform: translateX(-50%);
@@ -77,6 +73,7 @@ article {
 }
 
 .hero article {
+    position: absolute;
     right: 20px;
     bottom: 20px;
     max-width: 840px;
