@@ -8,7 +8,6 @@
 }
 
 header {
-    background-color: none;
     opacity: 80;
     color: var(--accent2-color);
 }
@@ -93,5 +92,5 @@ h1 {
 footer {
     background-color: none color: white;
     text-align: center;
-    padding: 16px;
+    padding: 25px;
 }
