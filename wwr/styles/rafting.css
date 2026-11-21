@@ -45,6 +45,10 @@ article {
     text-align: center;
 }
 
+article {
+    color: white;
+}
+
 .socialmedia a {
     text-decoration: none;
 }
